@@ -71,9 +71,11 @@ def main():
     referees = input("REFEREES: ")
     streamers = input("STREAMERS: ")
     commentators = input("COMMENTATORS: ")
+    graphics = input("GRAPHICS: ")
+    sheeters = input("SHEETERS: ")
 
     roles = [["Host", hosts], ["Head Mappooler", headmappoolers], ["Mappooler", mappoolers], ["Playtester", playtesters], ["Referee", referees],
-             ["Streamer", streamers], ["Commentator", commentators]]
+             ["Streamer", streamers], ["Commentator", commentators], ["Graphics: ", graphics], ["Sheeters: ", sheeters]]
 
     result = ""
     print("Processing roles, please wait...")
